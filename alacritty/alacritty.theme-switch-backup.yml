@@ -1,0 +1,78 @@
+env:
+  TERM: alacritty
+window:
+  dimensions:
+    columns: 150
+    lines: 45
+  padding:
+    x: 0
+    'y': 0
+font:
+  normal:
+    family: SauceCodePro Nerd Font
+    style: Regular
+  bold:
+    family: SauceCodePro Nerd Font
+    style: Regular
+  italic:
+    family: SauceCodePro Nerd Font
+    style: Regular
+  size: 11
+  offset:
+    x: 0
+    'y': 0
+  use_thin_strokes: true
+  draw_bold_text_with_bright_colors: true
+colors:
+  primary:
+    background: '#011627'
+    foreground: '#acb4c2'
+    bright_foreground: '#eeeeee'
+  normal:
+    black: '#1d3b53'
+    red: '#fc514e'
+    green: '#a1cd5e'
+    yellow: '#e3d18a'
+    blue: '#82aaff'
+    magenta: '#c792ea'
+    cyan: '#7fdbca'
+    white: '#a1aab8'
+  bright:
+    black: '#7c8f8f'
+    red: '#ff5874'
+    green: '#21c7a8'
+    yellow: '#ecc48d'
+    blue: '#82aaff'
+    magenta: '#ae81ff'
+    cyan: '#7fdbca'
+    white: '#d6deeb'
+  dim:
+    black: '0x333333'
+    red: '0xf2777a'
+    green: '0x99cc99'
+    yellow: '0xffcc66'
+    blue: '0x6699cc'
+    magenta: '0xcc99cc'
+    cyan: '0x66cccc'
+    white: '0xdddddd'
+  cursor:
+    text: '#080808'
+    cursor: '#9ca1aa'
+  selection:
+    text: '#080808'
+    background: '#b2ceee'
+background_opacity: 0.9
+cursor:
+  style:
+    blinking: Always
+  blink_interval: 500
+  unfocused_hollow: true
+  thickness: 0.15
+shell:
+  program: /bin/zsh
+  args:
+    - '-l'
+    - '-c'
+    - tmux
+working_directory: /Users/jacobder/projects/
+draw_bold_text_with_bright_colors: true
